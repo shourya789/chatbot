@@ -1,0 +1,45 @@
+/* src/App.css */
+.chatbot {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.message.user {
+  text-align: right;
+}
+
+.message.bot {
+  text-align: left;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
